@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mi App</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+<div data-role="page" id="inicio">
+  <div data-role="header" >
+    <p>Header</p>
+  </div>
+  <h1>Bienvenido a la super app.</h1>
+  <p>Buenas tardes.</p>
+  <a href="#productos" class="ui-btn ui-btn-inline" data-transition="pop" >Productos</a>
+  <div data-role="footer" data-position="fixed">
+  
+
+
+    <p>Footer</p>
+  </div>
+</div>
+
+
+<div data-role="page" id="productos" data-dialog="true">
+  <div data-role="header">
+    <p>Header</p>
+  </div>
+  <h1>Productos</h1>
+  <p>Bienvenido a la seccion de productos.</p>
+   <a href="#inicio" class="ui-btn ui-btn-inline" data-transition="flow">Inicio</a>
+   
+  <div data-role="footer" data-position="fixed">
+    <p>Footer</p>
+  </div>
+  
+</div>
+</html>
